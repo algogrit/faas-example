@@ -5,4 +5,6 @@ Run locally:
 
     $ npm install
 
-    $ ./scripts/dev-run.sh
+    $ npm install -g aws-sam-local
+
+    $ npm run dev

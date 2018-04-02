@@ -1,9 +1,13 @@
 {
-  "name": "EAM360 Signup",
+  "name": "faas-sample",
   "description": "",
   "version": "0.1.0",
+  "scripts": {
+    "dev": "./scripts/dev-run.sh"
+  },
   "dependencies": {},
   "devDependencies": {
+    "serverless": "^1.26.1",
     "serverless-sam": "0.0.5"
   }
 }
