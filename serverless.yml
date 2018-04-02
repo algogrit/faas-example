@@ -56,14 +56,15 @@ functions:
     handler: bin/hello
     events:
       - http:
-           path: /hello
-           method: GET
+          path: /hello
+          method: GET
+
   world:
     handler: bin/world
     events:
       - http:
-           path: /world
-           method: GET
+          path: /world
+          method: GET
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
@@ -112,4 +113,4 @@ functions:
 #       Value: "Some output value"
 
 plugins:
-  - serverless-offline
+  - serverless-sam

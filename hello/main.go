@@ -1,16 +1,20 @@
 package main
 
 import (
+	"net/http"
+
 	"github.com/aws/aws-lambda-go/lambda"
 )
 
 type Response struct {
-	Message string `json:"message"`
+	StatusCode int
+	Body       string
 }
 
 func Handler() (Response, error) {
 	return Response{
-		Message: "Go Serverless v1.0! Your function executed successfully!",
+		Body:       "Go Serverless v1.0! Your function executed successfully!",
+		StatusCode: http.StatusOK,
 	}, nil
 }
 

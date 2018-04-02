@@ -1,0 +1,9 @@
+{
+  "name": "EAM360 Signup",
+  "description": "",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless-sam": "0.0.5"
+  }
+}
